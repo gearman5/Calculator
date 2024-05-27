@@ -32,10 +32,11 @@ button{
     height: 50px;
     border-radius: 50px ;
     border: none;
-    background-color: gray;
+    background-color: hsl(0, 0%, 30%);
     font-size: large;
     font-weight: bolder;
     cursor: pointer;
+   
 }
 
 #keys{
@@ -43,4 +44,11 @@ button{
     grid-template-columns: repeat(4,1fr);
     gap: 10px;
     padding: 25px;
+}
+button:hover{
+    background-color: hsl(0, 0%, 40%);
+}
+
+button:active{
+    background-color: hsl(0, 0%, 50%);
 }
