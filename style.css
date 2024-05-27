@@ -1,4 +1,46 @@
-*{
-    padding: 0;
+/* calculator styling */
+
+body{
     margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+#Calculator{
+    font-family: Arial,sans-serif;
+    background-color: #000000b6;
+    border-radius: 15px;
+    max-width: 60%;
+    overflow: hidden;
+   
+}
+
+#screenDisplay{
+    width: 100%;
+    padding: 20px;
+    font-size: medium;
+    background-color: gray;
+    border: 50px;
+    border: none;
+    text-align: left;
+}
+
+button{
+    width: 50px;
+    height: 50px;
+    border-radius: 50px ;
+    border: none;
+    background-color: gray;
+    font-size: large;
+    font-weight: bolder;
+    cursor: pointer;
+}
+
+#keys{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 10px;
+    padding: 25px;
 }
